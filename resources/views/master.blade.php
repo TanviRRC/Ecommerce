@@ -21,7 +21,7 @@
 
 {{View::make('header')}}
 @yield('content')
-{{View::make('footer')}}
+<!--{View::make('footer')}}-->
 
 </body>
 <style>
@@ -53,6 +53,9 @@
     }
     .removeButton{
         padding-top: 20px;
+    }
+    .search-box{
+        width: 500px !important;
     }
 </style>
 
